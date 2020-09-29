@@ -1,0 +1,32 @@
+---
+title: "Test Proj"
+author: "Ethan Assefa"
+date: "9/29/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Learning Git and Github
+
+Theses two lines of code must be entered into the terminal at the start of a project:
+
+git config --global user.name "Your Name"  (ethan-assefa)
+git config --global user.email "you@example.com" (affesa.ethan@gmail.com)
+
+"I'm Learning to Use Github...Boom"
+
+## Test Code
+
+```{r test}
+2+5
+3+10
+```
+
+You can also embed plots, for example:
+
+```{r car}
+sqrt(100 + (12/3))
+```
